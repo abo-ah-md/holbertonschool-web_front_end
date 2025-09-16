@@ -41,6 +41,7 @@ main {
 .card-work .card-outer {
     position: relative;
     overflow: hidden;
+    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 
