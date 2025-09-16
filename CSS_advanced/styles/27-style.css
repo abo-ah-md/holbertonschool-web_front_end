@@ -304,6 +304,24 @@ body {
     line-height: var(--line-height-base);
 }
 
+.section-hero{
+    
+    background-size:90rem auto;
+    
+
+}
+.section-title  section-hero{
+    margin-bottom: 5rem;
+}
+
+    
+
+.section-inner  section-hero{
+padding:  10rem, 40rem, 2rem, 0;
+}
+
+    
+
 .row::after {
     content: "";
     display: table;
