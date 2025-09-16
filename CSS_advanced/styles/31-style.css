@@ -556,10 +556,13 @@ a:active {
     margin-left: auto;
     margin-right: auto;
 }
+.card-work .card-image {
+    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+}
 
 .card-work:hover .card-image {
     transform: scale(1.2);
-    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+    
 }
 
 .card-work:hover .card-outer {
