@@ -50,10 +50,7 @@ h6 {
 }
 
 
-a[href]:link {
-    text-decoration: none;
-    color: #161616;
-}
+
 
 a :visited {
     font-style: italic;
