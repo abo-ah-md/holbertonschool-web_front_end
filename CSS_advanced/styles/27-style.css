@@ -310,13 +310,13 @@ body {
     
 
 }
-.section-title  section-hero{
+.section-title  .section-hero{
     margin-bottom: 5rem;
 }
 
     
 
-.section-inner  section-hero{
+.section-inner  .section-hero{
 padding:  10rem, 40rem, 2rem, 0;
 }
 
