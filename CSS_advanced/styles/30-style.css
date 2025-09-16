@@ -73,8 +73,8 @@ main {
 
 }
 
-.card-title .card-work a,
-.card-work a {
+.card-work .card-title a,
+.card-work a  {
     display: block;
     text-decoration: none;
     padding-top: 45%;
