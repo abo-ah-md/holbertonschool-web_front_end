@@ -357,8 +357,8 @@ a:active {
     background-color: var(--color-light-grey);
 }
 
-.button{
-    
+.button {
+
     display: var(--button-display);
     padding: var(--button-padding);
     border: var(--button-border);
@@ -368,8 +368,8 @@ a:active {
 
 }
 
-.button:hover{
-    
+.button:hover {
+
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
@@ -424,22 +424,22 @@ a:active {
     margin-right: auto;
 }
 
-.card-testimonial{
+.card-testimonial {
     text-align: center;
 }
 
-.card-testimonial > .card-avatar{
-   border-radius: 50%;
+.card-testimonial .card-avatar {
+    border-radius: 50%;
     width: 10rem;
     height: 10rem;
 }
-.card-testimonial > .card-qoute > cite{
-    
-   display: block;
-    padding-top:1rem;
-    color: var(--color-primary);
 
+.card-testimonial .card-quote cite {
+    display: block;
+    padding-top: 1rem;
+    color: var(--color-primary);
 }
+
 .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
