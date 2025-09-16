@@ -16,11 +16,11 @@
     --font-weight-bold: 700;
     --line-height-base: 1.5;
     --line-height-small: 1.2;
-     --line-height-big: 1.8;
-     --section-header-align: center;
-     --section-tagline-transform:uppercase;
-    --section-title-margin : 0;
-    --section-title-color : var(--color-black) ;
+    --line-height-big: 1.8;
+    --section-header-align: center;
+    --section-tagline-transform: uppercase;
+    --section-title-margin: 0;
+    --section-title-color: var(--color-black);
 
 }
 
@@ -35,8 +35,8 @@ body {
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
     color: var(--text-color);
-    
-    line-height:  var(--line-height-base);
+
+    line-height: var(--line-height-base);
 }
 
 h1,
@@ -50,20 +50,20 @@ h6 {
 }
 
 
-a:link{
+a[href]:link {
     text-decoration: none;
     color: #161616;
-    
-}
-a :visited{
-font-style: italic;
 }
 
-a:hover{
+a :visited {
+    font-style: italic;
+}
+
+a:hover {
     text-decoration: underline;
 }
 
-a:active{
+a:active {
     background-color: var(--color-light-grey);
 }
 
@@ -75,16 +75,18 @@ a:active{
     color: var(--color-primary);
 }
 
-.section-header{
+.section-header {
     text-align: var(--section-header-align);
 }
-.section-title{
+
+.section-title {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
     margin: var(--section-title-margin);
     color: var(--section-title-color);
 }
+
 .section-tagline {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
