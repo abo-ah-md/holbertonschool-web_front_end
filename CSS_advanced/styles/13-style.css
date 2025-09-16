@@ -50,19 +50,19 @@ h6 {
 }
 
 
-a[href]{
+a:link{
     text-decoration: none;
     color: #161616;
 }
-a[href]:visited{
+a :link:visited{
 font-style: italic;
 }
 
-a[href]:hover{
+a:link:hover{
     text-decoration: underline;
 }
 
-a[href]:active{
+a:link:active{
     background-color: var(--color-light-grey);
 }
 
