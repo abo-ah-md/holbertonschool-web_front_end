@@ -426,15 +426,14 @@ a:active {
 
 .card-testimonial{
     text-align: center;
-
 }
 
-.card-testimonial .card{
+.card-testimonial > .card-avatar{
    border-radius: 50%;
     width: 10rem;
     height: 10rem;
 }
-.card-testimonial .card-qoute cite{
+.card-testimonial > .card-qoute > cite{
     
    display: block;
     padding-top:1rem;
