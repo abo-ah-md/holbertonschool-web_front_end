@@ -388,7 +388,15 @@ a:active {
 .footer {
     padding: var(--footer-padding);
 }
-
+.footer-address{
+    color: var(--text-color);
+}
+.social-link{
+    display: block;
+}
+.social-link->svg{
+color: var(--text-color);
+}
 .footer ul {
     text-align: right;
 }
